@@ -1,5 +1,7 @@
 module TransunionSpec (spec) where
 
+import qualified Data.Map as Map
+import Transunion
 import Parser
 import Util
 
@@ -63,12 +65,12 @@ parserSpec = do
               , ("transaction_date", "20150824")
               , ("transaction_time", "124331")
               ])]
-      reconcileSegments inputString `shouldBe` expected
+      parse inputString `shouldBe` expected
 
     it "shows where an error happened" $ do
       let inputString = "bad ffr"
 
-      evaluate(reconcileSegments inputString) `shouldThrow` anyErrorCall
+      evaluate(parse inputString) `shouldThrow` anyErrorCall
 
 
 stringSpec :: Spec

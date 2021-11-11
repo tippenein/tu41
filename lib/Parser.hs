@@ -1,15 +1,9 @@
-{-# LANGUAGE FlexibleContexts  #-}
-{-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE TemplateHaskell   #-}
-
 module Parser where
 
-import Data.List (sort)
-import System.IO.Unsafe (unsafePerformIO)
 import Text.Parsec
-
+import System.IO.Unsafe (unsafePerformIO)
+import Data.List (sort)
 import Csv
-import Util
 
 type Parser = Parsec String ()
 
@@ -35,25 +29,6 @@ parseSignal input =
   case parse' (many1 anySignal) input of
     Left e -> error $ show e
     Right r -> r
-
-reconcileSegments :: String -> [(String, [(String, String)])]
-reconcileSegments = map reconcileSegment . parseSignal
-
-reconcileSegment :: (String, String) -> (String, [(String, String)])
-reconcileSegment seg =
-  let (signal,content) = seg
-      fields = map (titleToSnakeCase . _fieldName) schema
-      schema = schemaForSignal signal
-      displacements = map _length schema
-      contents = cutSegments displacements content
-   in
-     (signal, zip fields contents)
-
-cutSegments :: [Int] -> String -> [String]
-cutSegments [] _ = []
-cutSegments _ "" = error "ran out of string to parse"
-cutSegments (n:rest) content =
-  take n content : cutSegments rest (drop n content)
 
 schemaForSignal :: String -> [TUData]
 schemaForSignal signal =
