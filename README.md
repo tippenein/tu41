@@ -1,6 +1,7 @@
-transunion
+transunion parser
 -----
 
+
 ``` sh
-stack exec transunion
+stack run tu41 -- --source some_file.txt
 ```

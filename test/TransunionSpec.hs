@@ -1,6 +1,5 @@
 module TransunionSpec (spec) where
 
-import qualified Data.Map as Map
 import Transunion
 import Parser
 import Util
