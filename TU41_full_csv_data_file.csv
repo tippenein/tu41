@@ -1,0 +1,1124 @@
+TU FFR Code,Field Name,Displacement,Length,Type
+AD02,Segment Type,1,4,A/N
+AD02,Segment Length,5,3,N
+AD02,Source Indicator,8,1,A
+AD02,Address Qualifier,9,1,A/N
+AD02,Address Type,10,1,A/N
+AD02,Street Address Unparsed,11,70,A/N
+AD02,City,81,27,A
+AD02,State Code,108,2,A
+AD02,ZIP Code,110,10,A/N
+AD02,Reported Date,120,8,A/N
+AD11,Segment Type,1,4,A/N
+AD11,Segment Length,5,3,N
+AD11,Source Indicator,8,1,A
+AD11,Address Qualifier,9,1,A/N
+AD11,Address Classification Code,10,1,A/N
+AD11,Standardized Flag,11,1,A/N
+AD11,Address Type,12,1,A/N
+AD11,Address Number,13,10,A/N
+AD11,Predirectional,23,2,A
+AD11,Street Name,25,28,A/N
+AD11,Postdirectional,53,2,A
+AD11,Street Type Code,55,4,A
+AD11,Unit Type,59,4,A
+AD11,Unit Number,63,10,A/N
+AD11,City Name,73,28,A
+AD11,State Code,101,2,A
+AD11,ZIP Code,103,5,A/N
+AD11,ZIP Extension Code,108,4,A/N
+AD11,Urbanization Name,112,30,A/N
+AD11,Reported Date,142,8,A/N
+AD11,Housing Status,150,1,A/N
+AH11,Segment Type,1,4,A/N
+AH11,Segment Length,5,3,N
+AH11,History Effective Month,8,6,A/N
+AH11,History Availability Indicator,14,1,A
+AH11,Current Balance Amount,15,9,A/N
+AH11,High Credit Amount,24,9,A/N
+AH11,Credit Limit Amount,33,9,A/N
+AH11,Payment Due Amount,42,9,A/N
+AH11,Past Due Amount,51,9,A/N
+AH11,Generic Remark Code,60,3,A/N
+AH11,Rating Remark Code,63,3,A/N
+AH11,Compliance Remark Code,66,3,A/N
+AH11,Actual Payment Amount,69,9,A/N
+AM01,Segment Type,1,4,A/N
+AM01,Segment Length,5,3,N
+AM01,Input Address Index,8,2,A/N
+AM01,File Address Index,10,2,A/N
+AM01,House Number Match,12,1,A/N
+AM01,PreDirectional Match,13,1,A/N
+AM01,Street Name Match,14,1,A/N
+AM01,Street Type Match,15,1,A/N
+AM01,Filler,16,1,A/N
+AM01,City Name Match,17,1,A/N
+AM01,State Code Match,18,1,A/N
+AM01,Zip Code Match,19,1,A/N
+AM01,Filler,20,1,A/N
+AM01,Filler,21,1,A/N
+AM01,Unit Number Match,22,1,A/N
+AO01,Segment Type,1,4,A/N
+AO01,Segment Length,5,3,N
+AO01,Service Code,8,5,A/N
+AO01,Service Status,13,2,A/N
+AO01,Search Status,15,3,A/N
+AR01,Segment Type,1,4,A/N
+AR01,Segment Length,5,3,N
+AR01,Attribute ID,8,8,A/N
+AR01,Attribute Index ID,16,5,A/N
+AR01,Attribute Value,21,40,A/N
+AS01,Segment Type,1,4,A/N
+AS01,Segment Length,5,3,N
+AS01,Account Type,8,2,A
+AS01,CoSigner Indicator,10,1,A
+AS01,Balance Amount,11,9,A/N
+AS01,Remaining Months,20,3,N
+AS01,Scheduled Monthly Payment Amount,23,9,A/N
+AS01,Times Late Last 24 Months Reported,32,2,N
+AS01,Estimated APR,34,6,A/N
+AS01,Account Status Indicator,40,1,A
+AT11,Segment Type,1,4,A/N
+AT11,Segment Length,5,3,N
+AT11,Specialized Payment Type Code,8,1,A/N
+AT11,Total Payment Due Amount,9,9,A/N
+AT11,Total Payment Due Date,18,8,A/N
+AT11,Portfolio Sale Indicator Code,26,1,A/N
+AT11,Portfolio Sale Name,27,30,A/N
+AT11,Original Creditor Name,57,30,A/N
+AT11,Original Chargeoff Amount,87,9,A/N
+BR01,Segment Type,1,4,A/N
+BR01,Segment Length,5,3,N
+BR01,Business Update Date Core,8,8,A/N
+BR01,Business Identifier,16,16,A/N
+BR01,Business Name Core,32,35,A/N
+BR01,Address Number Core,67,10,A/N
+BR01,Predirectional Core,77,2,A
+BR01,Street Name Core,79,28,A/N
+BR01,Postdirectional Core,107,2,A
+BR01,Street Type Code Core,109,4,A
+BR01,Unit Type Core,113,4,A
+BR01,Unit Number Core,117,10,A/N
+BR01,City Name Core,127,28,A
+BR01,State Code Core,155,2,A
+BR01,ZIP Code Core,157,5,A/N
+BR01,ZIP ExtensionCode,162,4,A/N
+BR01,Executive ID,166,16,A/N
+BR01,Data Source ID,182,2,A/N
+BR01,Top Firm Indicator Premium,184,1,A/N
+BR01,Home BasedIndicator Premium,185,1,A/N
+BR01,Corporate Entity Type Premium,186,1,A/N
+BR01,Location Status Premium,187,1,A/N
+BR01,Ownership Type Premium,188,1,A/N
+BR01,Year Company Established Premium,189,4,A/N
+BR01,Match Type,193,2,A/N
+BR01,Confidence Score Core,195,3,A/N
+BR01,Primary SIC Premium,198,8,A/N
+BR01,Secondary SIC Premium,206,8,A/N
+BR01,Third SIC Premium,214,8,A/N
+BR01,Fourth SIC Premium,222,8,A/N
+BR01,Fifth SIC Premium,230,8,A/N
+BR01,Sixth SIC Premium,238,8,A/N
+BR01,Seventh SIC Premium,246,8,A/N
+BR01,Total Sales Revenue Premium,254,12,N
+BR01,Sales by Location Premium,266,12,N
+BR01,Total Number of Employees Premium,278,12,N
+BR01,Number of Employees by Location Premium,290,12,N
+BR01,Primary NAICS Premium,302,6,A/N
+BR01,Secondary NAICS Premium,308,6,A/N
+BR01,Third NAICS Premium,314,6,A/N
+BR01,Sole Proprietorship Indicator Premium,320,1,A/N
+BR01,Revenue Growth Premium,321,8,A/N
+BR01,Closed Date Premium,329,10,A/N
+CA01,Segment Type,1,4,A/N
+CA01,Segment Length,5,3,N
+CA01,Summary Type,8,1,A
+CA01,Available Credit Amount,9,9,A/N
+CC11,Segment Type,1,4,A/N
+CC11,Segment Length,5,3,N
+CC11,Credit Card Type,8,2,A/N
+CC11,Credit Card Number,10,30,A/N
+CC11,Expiration Date,40,8,A/N
+CD01,Segment Type,1,4,A/N
+CD01,Segment Length,5,3,N
+CD01,Customer Identifier Qualifier,8,2,A/N
+CD01,Customer Identifier,10,20,A/N
+CD01,Reserved for internal use,30,4,A/N
+CD01,Filler,34,8,A/N
+CH01,Segment Type,1,4,A/N
+CH01,Segment Length,5,3,N
+CH01,Service Code,8,5,A/N
+CH01,Characteristic ID,13,8,A/N
+CH01,Characteristic Value,21,10,A/N
+CI01,Segment Type,1,4,A/N
+CI01,Segment Length,5,3,N
+CI01,Consumer Identifier,8,12,A/N
+CL11,Segment Type,1,4,A/N
+CL11,Segment Length,5,3,N
+CL11,Industry Code,8,2,A/N
+CL11,Reporting Subscriber Code,10,8,A/N
+CL11,Collection Agency Name,18,30,A/N
+CL11,Portfolio Type,48,1,A
+CL11,Account Number,49,30,A/N
+CL11,Equal Credit Opportunity Act Designator,79,1,A
+CL11,Account Type,80,2,A
+CL11,Original Creditor Name,82,30,A/N
+CL11,Creditor Classification,112,2,A/N
+CL11,Effective Date,114,8,A/N
+CL11,Open Date,122,8,A/N
+CL11,Closed Date,130,8,A/N
+CL11,Closed Date Indicator,138,1,A
+CL11,Paid Out Date,139,8,A/N
+CL11,Current Balance Amount,147,9,A/N
+CL11,Amount Placed renamed,156,9,A/N
+CL11,Past Due Amount,165,9,A/N
+CL11,Manner of Payment renamed,174,2,A/N
+CL11,Consolidated Remark Code,176,3,A/N
+CL11,Filler,179,5,A/N
+CL11,Actual Payment Amount,184,9,A/N
+CL11,Last Payment Date,193,8,A/N
+CL11,Remark Affiliate Remark Code,201,3,A/N
+CL11,Generic Remark Code,204,3,A/N
+CL11,Rating Remark Code,207,3,A/N
+CL11,Compliance Remark Code,210,3,A/N
+CL11,Update Indicator,213,1,A
+CL13,Segment Type,1,4,A/N
+CL13,Segment Length,5,3,N
+CL13,Industry Code,8,2,A/N
+CL13,Reporting Subscriber Code,10,8,A/N
+CL13,Collection Agency Name,18,30,A/N
+CL13,Portfolio Type,48,1,A
+CL13,Account Number,49,30,A/N
+CL13,Equal Credit Opportunity Act Designator,79,1,A
+CL13,Account Type,80,2,A
+CL13,Original Creditor Name,82,30,A/N
+CL13,Creditor Classification,112,2,A/N
+CL13,Effective Date,114,8,A/N
+CL13,Open Date,122,8,A/N
+CL13,Closed Date,130,8,A/N
+CL13,Closed Date Indicator,138,1,A
+CL13,Paid Out Date,139,8,A/N
+CL13,Current Balance Amount,147,9,A/N
+CL13,Amount Placed renamed,156,9,A/N
+CL13,Past Due Amount,165,9,A/N
+CL13,Manner of Payment renamed,174,2,A/N
+CL13,First Delinquency Date,176,8,A/N
+CL13,Actual Payment Amount,184,9,A/N
+CL13,Last Payment Date,193,8,A/N
+CL13,Remarks Affiliate Remark Code,201,3,A/N
+CL13,Generic Remark Code,204,3,A/N
+CL13,Rating Remark Code,207,3,A/N
+CL13,Compliance Remark Code,210,3,A/N
+CL13,Update Indicator,213,1,A
+CL13,Reported Date,214,8,A/N
+CL13,Suppressed Date,222,8,A/N
+CL13,Suppression Indicator,230,1,A/N
+CO01,Segment Type,1,4,A/N
+CO01,Segment Length,5,3,N
+CO01,Source Indicator,8,1,A
+CO01,Source Qualifier,9,1,A/N
+CO01,City Name,10,28,A
+CO01,State Code,38,2,A
+CO01,County,40,25,A
+CO01,County Type,65,1,A
+CORR,Segment Type,1,4,A
+CORR,Version Switch,5,1,N
+CORR,User reference number,6,24,A/N
+CORR,First or second inquiry error response record,30,1,A
+CORR,First error condition encountered,31,3,N
+CORR,Second error condition encountered,34,3,N
+CORR,Third error condition encountered,37,3,N
+CORR,Fourth error condition encountered,40,3,N
+CORR,Fifth error condition encountered,43,3,N
+CP11,Segment Type,1,4,A/N
+CP11,Segment Length,5,3,N
+CP11,Information Type,8,1,A/N
+CP11,Subscriber Source Name,9,30,A/N
+CP11,Account Docket Number,39,30,A/N
+CP11,Remarks Affiliate Remark Code or Public Record Type Code,69,3,A/N
+CP11,Generic Remark Code,72,3,A/N
+CP11,Rating History Remark Code,75,3,A/N
+CP11,Compliance Remark Code,78,3,A/N
+CR01,Segment Type,1,4,A/N
+CR01,Segment Length,5,3,N
+CR01,Listing Indicator,8,3,N
+CR01,Listing Type,11,2,A/N
+CR01,Match Code,13,2,A/N
+CR01,Phone Status Code,15,3,A/N
+CR01,Listing Create Date,18,8,A/N
+CR01,Phone Availability Indicator,26,1,A
+CR02,Segment Type,1,4,A/N
+CR02,Segment Length,5,3,N
+CR02,Listing Indicator,8,3,N
+CR02,SSN Match Indicator,11,2,A/N
+CR02,Linking Match Indicator,13,1,A/N
+CR02,Filler,14,9,A/N
+CS11,Segment Type,1,4,A/N
+CS11,Segment Length,5,3,N
+CS11,Content Type,8,2,A/N
+CS11,Actual Statement Length,10,4,N
+CS11,Current Segment Number,14,3,N
+CS11,Total Segment Number,17,3,N
+CS11,Statement,20,250,A/N
+DA01,Segment Type,1,4,A/N
+DA01,Segment Length,5,3,N
+DA01,Identification or Customer Number Qualifier,8,2,N
+DA01,Invalid Format,10,2,N
+DA01,Soundex Check,12,1,N
+DA01,Last Name Check,13,1,N
+DA01,First Name Check,14,1,N
+DA01,Middle Name Check,15,1,N
+DA01,SSN Check,16,1,N
+DA01,DOB Check,17,1,N
+DA01,Gender Check,18,1,N
+DA01,Eye Color Check,19,1,N
+DA01,Expiration Date Check,20,1,N
+DA01,Match Evaluation,21,2,A/N
+DB01,Segment Type,1,4,A/N
+DB01,Segment Length,5,3,N
+DB01,Branch ID,8,10,A/N
+DB01,Branch Type,18,2,A/N
+DB01,Client Use 1,20,20,A/N
+DB01,Client Use 2,40,20,A/N
+DC11,Segment Type,1,4,A/N
+DC11,Segment Length,5,3,N
+DC11,Message Code,8,6,A/N
+DC11,Source Indicator,14,1,A/N
+DC11,Last Name,15,32,A
+DC11,First Name,47,20,A
+DC11,Name Suffix,67,4,A/N
+DC11,City Last Residency,71,28,A
+DC11,State Last Residency,99,2,A
+DC11,ZIP Code Last Residency,101,10,A/N
+DC11,City Location of Payments,111,28,A
+DC11,State Location of Payments,139,2,A
+DC11,ZIP Code Location of Payments,141,10,A
+DC11,Date of Birth of Deceased,151,8,A/N
+DC11,Date of Death Claim,159,8,A/N
+DC11,Deceased Information File Searched,167,1,A
+DI01,Segment Type,1,4,A/N
+DI01,Segment Length,5,3,N
+DI01,Input Type,8,2,A/N
+DI01,Custom Input,10,24,A/N
+DR01,Segment Type,1,4,A/N
+DR01,Segment Length,5,3,N
+DR01,Reference Number,8,12,A/N
+DR01,Decision Class,20,1,A/N
+DR01,Decision Text,21,10,A/N
+DR01,Level,31,2,N
+DR01,Level Code,33,1,A/N
+DR01,Timestamp,34,14,N
+DR01,Maximum Level,48,2,N
+DR01,Level Reasons,50,44,A/N
+DR01,DS Reasons,94,44,A/N
+DR01,Credit Limit,138,9,N
+DR01,Bureau ID,147,1,N
+DR01,Credit Bureau Error Code,148,3,A/N
+DR01,Address Mismatch Alert,151,1,A/N
+DR01,Fraud Alert,152,1,A/N
+DR01,Credit Data Status,153,1,A/N
+DR01,Account Number,154,24,A/N
+DR01,Criteria Name,178,6,A/N
+DR01,Special Use,184,10,A/N
+ED01,Segment Type,1,4,A/N
+ED01,Segment Length,5,3,N
+ED01,Subject Identifier,8,1,N
+ED01,Original Value,9,50,A/N
+ED01,Edit Code Number,59,3,A/N
+EF01,Segment Type,1,4,A/N
+EF01,Segment Length,5,3,N
+EF01,Listing Indicator,8,3,A/N
+EF01,Delivery Point,11,2,A/N
+EF01,Check Digit,13,1,A/N
+EF01,Latitude,14,12,A/N
+EF01,Longitude,26,12,A/N
+EF01,Congressional District,38,2,A/N
+EF01,Carrier route,40,4,A/N
+EF01,Sort Zone,44,1,A/N
+EF01,FIPS,45,5,A/N
+EF01,Line Type,50,2,A/N
+EF01,MSA MD Coder,52,5,N
+EF01,CMSA,57,5,A/N
+EM11,Segment Type,1,4,A/N
+EM11,Segment Length,5,3,N
+EM11,Source Indicator,8,1,A/N
+EM11,Employer name,9,50,A/N
+EM11,Occupation,59,30,A/N
+EM11,Hire Date,89,8,A/N
+EM11,Filler,97,8,A/N
+EM11,Reported Date,105,8,A/N
+EM11,Effective Date,113,8,A/N
+EM11,Income,121,9,A/N
+EM11,Pay Basis,130,1,A
+END1,Segment Type,1,4,A/N
+END1,Segment Length,5,3,N
+END1,Total Number of Segments,8,5,N
+ERRC,Segment Type,1,4,A/N
+ERRC,Segment Length,5,3,N
+ERRC,Subject Identifier,8,1,N
+ERRC,Error Code Number,9,3,A/N
+ERRT,Segment Type,1,4,A/N
+ERRT,Segment Length,5,3,N
+ERRT,Subject Identifier,8,1,N
+ERRT,Error Code Number,9,3,A/N
+ERRT,Error Description,12,79,A/N
+FA11,Segment Type,1,4,A/N
+FA11,Segment Length,5,3,N
+FA11,Source Indicator,8,1,A
+FA11,Address Qualifier,9,1,A/N
+FA11,Address Classification Code,10,1,A/N
+FA11,Standardized Flag,11,1,A/N
+FA11,Address Type,12,1,A/N
+FA11,Address Number,13,10,A/N
+FA11,Predirectional,23,2,A
+FA11,Street Name,25,28,A/N
+FA11,Postdirectional,53,2,A
+FA11,Street Type,55,4,A
+FA11,Unit Type,59,4,A
+FA11,Unit Number,63,10,A/N
+FA11,City Name,73,28,A
+FA11,State Code,101,2,A
+FA11,ZIP Code,103,5,A/N
+FA11,ZIP Extension Code,108,4,A/N
+FA11,Urbanization Name,112,30,A/N
+FA11,Date Reported,142,8,A/N
+FA11,Housing Status,150,1,A/N
+FI01,Segment Type,1,4,A/N
+FI01,Segment Length,5,3,N
+FI01,Subject Deceased,8,1,A
+FI01,Last Activity Type,9,1,A
+FI01,Date of Last Activity in the Last 12 Months,10,8,A/N
+FI01,Number of Trades,18,3,N
+FI01,Number of Inquiries,21,3,N
+FT01,Segment Type,1,4,A/N
+FT01,Segment Length,5,3,N
+FT01,Subscriber Name,8,12,A/N
+FT01,Subscriber Area Code,20,3,A/N
+FT01,Subscriber Phone Number,23,7,A/N
+FT01,Portfolio Type,30,1,A
+FT01,Account Number,31,30,A/N
+FT01,Last Payment Date renamed,61,8,A/N
+FT01,Trade Status,69,3,A
+FT01,Available Credit Amount,72,9,A/N
+FT01,New Trade Indicator,81,1,A
+FT01,Debt Counseling Indicator,82,3,A/N
+GC01,Segment Type,1,4,A/N
+GC01,Segment Length,5,3,N
+GC01,Address Indicator,8,1,A/N
+GC01,ZIP Code,9,9,A/N
+GC01,GEO Status,18,2,A/N
+GC01,Filler,20,2,A/N
+GC01,MSA MD Code,22,5,N
+GC01,State Code,27,2,A/N
+GC01,County Code,29,3,A/N
+GC01,Census Tract Code,32,4,A/N
+GC01,Census Tract Suffix,36,2,A/N
+GC01,Block Code,38,1,A/N
+GC01,Latitude,39,8,A/N
+GC01,Longitude,47,8,A/N
+ID01,Segment Type,1,4,A/N
+ID01,Segment Length,5,3,N
+ID01,Source Indicator,8,1,A
+ID01,ID Type,9,1,N
+ID01,ID Number or Value,10,30,A/N
+ID01,Expiration Date,40,8,A/N
+ID01,State of Issuance,48,2,A
+ID02,Segment Type,1,4,A/N
+ID02,Segment Length,5,3,N
+ID02,Source Indicator,8,1,A
+ID02,ID Type,9,2,A/N
+ID02,ID Number or Value,11,255,A/N
+IN11,Segment Type,1,4,A/N
+IN11,Segment Length,5,3,N
+IN11,Inquiring Subscriber Prefix Code Bureau Market and Submarket,8,4,A/N
+IN11,Industry Code,12,2,A/N
+IN11,Inquiring Subscriber Code,14,8,A/N
+IN11,Subscriber Name,22,30,A/N
+IN11,Equal Credit Opportunity Act Designator,52,1,A
+IN11,Account Type,53,2,A
+IN11,Inquiry Date,55,8,A
+IN11,Requestors Name,63,20,A/N
+IN11,Filler,83,2,A/N
+IN12,Segment Type,1,4,A/N
+IN12,Segment Length,5,3,N
+IN12,Subscriber Name,8,30,A
+IN12,Subscriber Area Code,38,3,N
+IN12,Subscriber Phone Number,41,7,A/N
+IN12,Extension,48,5,N
+IN12,Account Type,53,2,A
+IN12,Inquiry Date,55,8,A/N
+IN12,Requestors Name,63,20,A/N
+IN12,Filler,83,2,A/N
+LK11,Segment Type,1,4,A/N
+LK11,Segment Length,5,3,N
+LK11,Segment Decoded,8,2,A/N
+LK11,Inquiry Subscriber Prefix Code Bureau Market and Submarket,10,4,A/N
+LK11,Industry Code,14,2,A/N
+LK11,Inquiring Subscriber Code,16,8,A/N
+LK11,Subscriber Name,24,30,A/N
+LK11,Method of Contact,54,1,A/N
+MC01,Segment Type,1,4,A/N
+MC01,Segment Length,5,3,N
+MC01,Message Code,8,6,A/N
+MC01,Source Indicator,14,1,A/N
+MC01,Address Match Flag,15,1,A/N
+MC01,POB Apartment Number Unit or Telephone Indicator,16,1,A/N
+MC01,POB Apartment Number Unit or Telephone Number,17,10,A/N
+MC01,Threshold Number,27,3,A/N
+MI01,Segment Type,1,4,A/N
+MI01,Segment Length,5,3,N
+MI01,Information,8,70,A/N
+ML01,Segment Type,1,4,A/N
+ML01,Segment Length,5,3,N
+ML01,Source Indicator,8,1,A
+ML01,Max Mileage,9,8,A/N
+ML01,Max Mileage Indicator,17,1,N
+ML01,Min Mileage,18,8,A/N
+ML01,Min Mileage Indicator,26,1,N
+ML02,Segment Type,1,4,A/N
+ML02,Segment Length,5,3,N
+ML02,Source Indicator,8,1,A
+ML02,Home Vs Business Phone Numbers Mileage,9,8,A/N
+ML02,Home Phone Number Vs Business ZIP Code Mileage,17,8,A/N
+ML02,Home ZIP Code Vs Business Phone Number Mileage,25,8,A/N
+ML02,Home Vs Business ZIP Code Mileage,33,8,A/N
+MT01,Segment Type,1,4,A/N
+MT01,Segment Length,5,3,N
+MT01,Message Code,8,6,A/N
+MT01,Actual Message Length,14,3,N
+MT01,Current Segment Number,17,1,N
+MT01,Total Segment Number,18,1,N
+MT01,Threshold Number,19,3,A/N
+MT01,Message Text,22,150,A/N
+NM11,Segment Type,1,4,A/N
+NM11,Segment Length,5,3,N
+NM11,Source Indicator,8,1,A
+NM11,Name Indicator,9,1,A/N
+NM11,Last Name,10,32,A
+NM11,Unparsed Name,10,114,A/N
+NM11,First Name,42,82,A
+NM11,First Name,42,20,A
+NM11,Middle Name,62,20,A
+NM11,Prefix,82,4,A/N
+NM11,Salutation Code,86,3,A/N
+NM11,Generation Code,89,3,A/N
+NM11,Secondary Name,92,32,A
+NU01,Segment Type,1,4,A/N
+NU01,Segment Length,5,3,N
+NU01,Number Type,8,2,N
+NU01,Number,10,3,N
+OB01,Segment Type,1,4,A/N
+OB01,Segment Length,5,3,N
+OB01,Bureau Name,8,50,A/N
+OB01,Bureau Address,58,40,A/N
+OB01,Bureau City State Zip,98,29,A/N
+OB01,Bureau Telephone Number,127,22,A/N
+OB02,Segment Type,1,4,A/N
+OB02,Segment Length,5,3,N
+OB02,Bureau Name,8,50,A/N
+OB02,Bureau Address,58,40,A/N
+OB02,Bureau City State Zip,98,29,A/N
+OB02,Bureau Telephone Number,127,22,A/N
+OB02,Adverse Action URL,149,50,A/N
+PD01,Segment Type,1,4,A/N
+PD01,Segment Length,5,3,N
+PD01,APN,8,50,A/N
+PD01,FIPS Code,58,5,A/N
+PD01,Sale Price,63,11,A/N
+PD01,Date of Sale,74,8,A/N
+PD01,Date Sale Recorded,82,8,A/N
+PD01,Calculated Value,90,11,A/N
+PH01,Segment Type,1,4,A/N
+PH01,Segment Length,5,3,N
+PH01,Service Code,8,5,A/N
+PH02,Segment Type,1,4,A/N
+PH02,Segment Length,5,3,N
+PH02,Service Code,8,5,A/N
+PH02,Service Results,13,3,A/N
+PH03,Segment Type,1,4,A/N
+PH03,Segment Length,5,3,N
+PH03,Service Code,8,5,A/N
+PH03,Service Result 1 Phone status,13,1,A/N
+PH03,Service Result 2 Address status,14,1,A/N
+PH03,Service Result 3 Address type,15,1,A/N
+PH04,Segment Type,1,4,A/N
+PH04,Segment Length,5,3,N
+PH04,Service Code,8,5,A/N
+PH04,Total Listings Returned,13,3,N
+PH04,Total Listings Found,16,3,N
+PI11,Segment Type,1,4,A/N
+PI11,Segment Length,5,3,N
+PI11,Source Indicator,8,1,A
+PI11,Social Security Number,9,9,N
+PI11,Date of Birth,18,8,A/N
+PN01,Segment Type,1,4,A/N
+PN01,Segment Length,5,3,N
+PN01,Source Indicator,8,1,A
+PN01,Phone Qualifier,9,1,A/N
+PN01,Phone Type,10,2,A/N
+PN01,Availability Indicator,12,1,A
+PN01,Area Code,13,3,A/N
+PN01,Telephone Number,16,7,A/N
+PN01,Extension,23,5,A/N
+PN02,Segment Type,1,4,A/N
+PN02,Segment Length,5,3,N
+PN02,Source Indicator,8,1,A
+PN02,Phone Qualifier,9,1,A/N
+PN02,Phone Type,10,2,A/N
+PN02,Phone Status,12,1,A/N
+PN02,Availability Indicator,13,1,A
+PN02,Area Code,14,3,A/N
+PN02,Telephone Number,17,7,A/N
+PN02,Extension,24,5,A/N
+PN02,Filler,29,17,A/N
+PP11,Segment Type,1,4,A/N
+PP11,Segment Length,5,3,N
+PP11,Payment Pattern Start Date,8,8,A/N
+PP11,Payment Pattern,16,82,A/N
+PR11,Segment Type,1,4,A/N
+PR11,Segment Length,5,3,N
+PR11,Industry Code,8,2,A/N
+PR11,Reporting Subscriber Code,10,8,A/N
+PR11,Public Record Type,18,2,A
+PR11,Docket Number,20,30,A/N
+PR11,Attorney,50,38,A/N
+PR11,Plaintiff,88,36,A/N
+PR11,File Date renamed,124,8,A/N
+PR11,Effective Date renamed,132,8,A/N
+PR11,Paid Date,140,8,A/N
+PR11,Filler,148,9,A/N
+PR11,Amount renamed,157,9,A/N
+PR11,Filler,166,9,A/N
+PR11,Filler,175,9,A/N
+PR11,Equal Credit Opportunity Act Designator,184,1,A
+PR11,Public Record Source Code,185,2,A
+PR11,Source Location City,187,28,A
+PR11,Source Location State,215,2,A
+PS01,Segment Type,1,4,A/N
+PS01,Segment Length,5,3,N
+PS01,First Name Sources,8,2,A/N
+PS01,Last Name Sources,10,2,A/N
+PS01,Address Sources,12,2,A/N
+PS01,Previous Address Sources,14,2,A/N
+PS01,Area Code Sources,16,2,A/N
+PS01,Phone Number Sources,18,2,A/N
+PS01,SSN Sources,20,2,A/N
+PS01,Total Sources,22,2,A/N
+PS01,First Name Summary number of sources matched,24,2,A/N
+PS01,First Name Summary number of sources partially matched,26,2,A/N
+PS01,First Name Summary number of sources not matched,28,2,A/N
+PS01,First Name Summary number of sources in which not found,30,2,A/N
+PS01,Last Name Summary number of sources matched,32,2,A/N
+PS01,Last Name Summary number of sources partially matched,34,2,A/N
+PS01,Last Name Summary number of sources not matched,36,2,A/N
+PS01,Last Name Summary number of sources in which not found,38,2,A/N
+PS01,Current Address Summary number of sources matched,40,2,A/N
+PS01,Current Address Summary number of sources partially matched,42,2,A/N
+PS01,Current Address Summary number of sources not matched,44,2,A/N
+PS01,Current Address Summary number of sources in which not found,46,2,A/N
+PS01,Previous Address Summary number of sources matched,48,2,A/N
+PS01,Previous Address Summary number of sources partially matched,50,2,A/N
+PS01,Previous Address Summary number of sources not matched,52,2,A/N
+PS01,Previous Address Summary number of sources in which not found,54,2,A/N
+PS01,Area Code Summary number of sources matched,56,2,A/N
+PS01,Area Code Summary number of sources partially matched,58,2,A/N
+PS01,Area Code Summary number of sources not matched,60,2,A/N
+PS01,Area Code Summary number of sources in which not found,62,2,A/N
+PS01,Phone Number Summary number of sources matched,64,2,A/N
+PS01,Phone Number Summary number of sources partially matched,66,2,A/N
+PS01,Phone Number Summary number of sources not matched,68,2,A/N
+PS01,Phone Number Summary number of sources in which not found,70,2,A/N
+PS01,SSN Summary number of sources matched,72,2,A/N
+PS01,SSN Summary number of sources partially matched,74,2,A/N
+PS01,SSN Summary number of sources not matched,76,2,A/N
+PS01,SSN Summary number of sources in which not found,78,2,A/N
+PS01,Total Match number of sources matched,80,2,A/N
+PS01,Total Match number of sources partially matched,82,2,A/N
+PS01,Total Match number of sources not matched,84,2,A/N
+PS01,Total Match number of sources in which not found,86,2,A/N
+PS01,First Name Total Points,88,2,A/N
+PS01,Last Name Total Points,90,2,A/N
+PS01,Current Address Total Points,92,2,A/N
+PS01,Previous Address Total Points,94,2,A/N
+PS01,Area Code Total Points,96,2,A/N
+PS01,Phone Number Total Points,98,2,A/N
+PS01,SSN Total Points,100,2,A/N
+PS01,Total Points,102,2,A/N
+PS01,First Name Percent,104,3,A/N
+PS01,Last Name Percent,107,3,A/N
+PS01,Current Address Percent,110,3,A/N
+PS01,Previous Address Percent,113,3,A/N
+PS01,Area Code Percent,116,3,A/N
+PS01,Phone Number Percent,119,3,A/N
+PS01,SSN Percent,122,3,A/N
+PS01,Total Percent,125,3,A/N
+PS02,Segment Type,1,4,A/N
+PS02,Segment Length,5,3,N
+PS02,First Name Sources,8,2,A/N
+PS02,Last Name Sources,10,2,A/N
+PS02,Address Sources,12,2,A/N
+PS02,Previous Address Sources,14,2,A/N
+PS02,Date of Birth Sources,16,2,A/N
+PS02,Area Code Sources,18,2,A/N
+PS02,Phone Number Sources,20,2,A/N
+PS02,SSN Sources,22,2,A/N
+PS02,Total Sources,24,2,A/N
+PS02,First Name Summary number of sources matched,26,2,A/N
+PS02,First Name Summary number of sources partially matched,28,2,A/N
+PS02,First Name Summary number of sources not matched,30,2,A/N
+PS02,First Name Summary number of sources in which not found,32,2,A/N
+PS02,Last Name Summary number of sources matched,34,2,A/N
+PS02,Last Name Summary number of sources partially matched,36,2,A/N
+PS02,Last Name Summary number of sources not matched,38,2,A/N
+PS02,Last Name Summary number of sources in which not found,40,2,A/N
+PS02,Current Address Summary number of sources matched,42,2,A/N
+PS02,Current Address Summary number of sources partially matched,44,2,A/N
+PS02,Current Address Summary number of sources not matched,46,2,A/N
+PS02,Current Address Summary number of sources in which not found,48,2,A/N
+PS02,Previous Address Summary number of sources matched,50,2,A/N
+PS02,Previous Address Summary number of sources partially matched,52,2,A/N
+PS02,Previous Address Summary number of sources not matched,54,2,A/N
+PS02,Previous Address Summary number of sources in which not found,56,2,A/N
+PS02,Date of Birth Summary number of sources matched,58,2,A/N
+PS02,Date of Birth Summary number of sources partially matched,60,2,A/N
+PS02,Date of Birth Summary number of sources not matched,62,2,A/N
+PS02,Date of Birth Summary number of sources in which not found,64,2,A/N
+PS02,Area Code Summary number of sources matched,66,2,A/N
+PS02,Area Code Summary number of sources partially matched,68,2,A/N
+PS02,Area Code Summary number of sources not matched,70,2,A/N
+PS02,Area Code Summary number of sources in which not found,72,2,A/N
+PS02,Phone Number Summary number of sources matched,74,2,A/N
+PS02,Phone Number Summary number of sources partially matched,76,2,A/N
+PS02,Phone Number Summary number of sources not matched,78,2,A/N
+PS02,Phone Number Summary number of sources in which not found,80,2,A/N
+PS02,SSN Summary number of sources matched,82,2,A/N
+PS02,SSN Summary number of sources partially matched,84,2,A/N
+PS02,SSN Summary number of sources not matched,86,2,A/N
+PS02,SSN Summary number of sources in which not found,88,2,A/N
+PS02,Total Match Summary number of sources matched,90,2,A/N
+PS02,Total Match Summary number of sources partially matched,92,2,A/N
+PS02,Total Match Summary number of sources not matched,94,2,A/N
+PS02,Total Match Summary number of sources in which not found,96,2,A/N
+PS02,First Name Total Points,98,2,A/N
+PS02,Last Name Total Points,100,2,A/N
+PS02,Current Address Total Points,102,2,A/N
+PS02,Previous Address Total Points,104,2,A/N
+PS02,Date of Birth Total Points,106,2,A/N
+PS02,Area Code Total Points,108,2,A/N
+PS02,Phone Number Total Points,110,2,A/N
+PS02,SSN Total Points,112,2,A/N
+PS02,Total Points,114,2,A/N
+PS02,First Name Percent,116,3,A/N
+PS02,Last Name Percent,119,3,A/N
+PS02,Current Address Percent,122,3,A/N
+PS02,Previous Address Percent,125,3,A/N
+PS02,Date of Birth Percent,128,3,A/N
+PS02,Area Code Percent,131,3,A/N
+PS02,Phone Number Percent,134,3,A/N
+PS02,SSN Percent,137,3,A/N
+PS02,Total Percent,140,3,A/N
+QH01,Segment Type,1,4,A/N
+QH01,Segment Length,5,3,N
+QH01,Message Code,8,6,A/N
+QH01,Address Match Flag,14,1,A/N
+QH01,Number of Times Input Was Used on Other Inquiries,15,3,A/N
+QH01,Threshold Chosen,18,2,A/N
+QH01,Time Frame of Occurrences,20,2,A/N
+RE01,Segment Type,1,4,A/N
+RE01,Segment Length,5,3,N
+RE01,Source Indicator,8,1,A
+RE01,ZIP Code vs City,9,1,N
+RE01,ZIP Code vs State,10,1,N
+RE01,Phone Number vs State,11,1,N
+RE01,Phone Number vs ZIP Code,12,1,N
+RE01,Mileage,13,8,A/N
+RR01,Segment Type,1,4,A/N
+RR01,Segment Length,5,3,N
+RR01,Record Number,8,2,N
+RR01,Last Reported Date,10,8,A/N
+RR01,Frequency Reported,18,4,N
+SA11,Segment Type,1,4,A/N
+SA11,Segment Length,5,3,N
+SA11,Subscriber Address 1,8,30,A/N
+SA11,Subscribe Address 2,38,30,A/N
+SA11,City,68,28,A
+SA11,State,96,2,A
+SA11,ZIP Code,98,5,A/N
+SA11,ZIP Extension Code,103,4,A/N
+SC01,Segment Type,1,4,A/N
+SC01,Segment Length,5,3,N
+SC01,Service Code,8,5,A/N
+SC01,Sign,13,1,A/N
+SC01,Score,14,5,A/N
+SC01,Scoring Indicator Flag,19,1,A/N
+SC01,Score Derog and Inquiry Alert Flag,20,1,A/N
+SC01,First Factor,21,3,A/N
+SC01,Second Factor,24,3,A/N
+SC01,Third Factor,27,3,A/N
+SC01,Fourth Factor,30,3,A/N
+SC01,Score Card Indicator,33,2,A/N
+SD01,Segment Type,1,4,A/N
+SD01,Segment Length,5,3,N
+SD01,Summary Type,8,1,A
+SD01,High Credit Amount,9,9,A/N
+SD01,Credit Limit Amount,18,9,A/N
+SD01,Current Balance Amount,27,9,A/N
+SD01,Past Due Amount,36,9,A/N
+SD01,Monthly Payment Amount,45,9,A/N
+SD01,Percent of credit available,54,3,A/N
+SH01,Segment Type,1,4,A/N
+SH01,Segment Length,5,3,N
+SH01,Subject Identifier,8,1,N
+SH01,File Number,9,2,N
+SH01,File Hit,11,1,A
+SH01,SSN Match Indicator,12,2,A/N
+SH01,Consumer Statement Indicator,14,1,A/N
+SH01,Bureau Market File Control,15,2,A/N
+SH01,Bureau Submarket File Control,17,2,A/N
+SH01,Supression Indicator,19,1,A
+SH01,In File Since Date,20,8,A/N
+SH02,Segment Type,1,4,A/N
+SH02,Segment Length,5,3,N
+SH02,Subject Identifier,8,1,N
+SH02,File Number,9,2,N
+SH02,Service Action,11,2,A
+SH03,Segment Type,1,4,A/N
+SH03,Segment Length,5,3,N
+SH03,Subject Identifier,8,1,N
+SH03,Subject Hit Status,9,1,A/N
+SH03,Filler,10,1,A/N
+SH04,Segment Type,1,4,A/N
+SH04,Segment Length,5,3,N
+SH04,Subject Identifier,8,1,N
+SH04,File Number,9,2,N
+SH04,File Hit Status,11,1,A
+SH04,SSN Match Indicator,12,2,A/N
+SH04,Match Indicator,14,1,A/N
+SH04,Consumer Statement Indicator,15,1,A/N
+SH04,Bureau Market File Control,16,2,A/N
+SH04,Bureau Submarket File Control,18,2,A/N
+SH04,Supression Indicator,20,1,A
+SH04,In File Since Date,21,8,A/N
+SH05,Segment Type,1,4,A/N
+SH05,Segment Length,5,3,N
+SH05,Subject Identifier,8,1,N
+SH05,File Number,9,2,N
+SH05,Subject Hit Status,11,1,A/N
+SH05,Subject Restriction Status,12,1,A/N
+SH05,Subject Country,13,1,A/N
+SH06,Segment Type,1,4,A/N
+SH06,Segment Length,5,3,N
+SH06,Subject Identifier,8,1,N
+SH06,File Number,9,2,N
+SH06,File Hit Status,11,1,A/N
+SH06,Suppression Indicator,12,1,A/N
+SH06,SSN Deceased Indicator,13,1,A/N
+SH06,Bankruptcy Indicator,14,1,A/N
+SM11,Segment Type,1,4,A/N
+SM11,Segment Length,5,3,N
+SM11,Credit Summary Reporting Period,8,1,N
+SM11,Number of Public Records,9,3,N
+SM11,Number of Collection Accounts,12,3,N
+SM11,Number of Negative Accounts,15,3,N
+SM11,Accounts with any Historical Negative,18,3,N
+SM11,Occurrence of Historical Negatives,21,3,N
+SM11,Number of Trade Accounts,24,3,N
+SM11,Number of Revolving and Check Credit Trade Accounts,27,3,N
+SM11,Number of Installment Trade Accounts,30,3,N
+SM11,Number of Mortgage Trade Accounts,33,3,N
+SM11,Number of Open Trade Accounts,36,3,N
+SM11,Number of Unspecified Portfolio Type Accounts,39,3,N
+SM11,Number of Inquiries,42,3,N
+SV01,Segment Type,1,4,A/N
+SV01,Segment Length,5,3,N
+SV01,Verification Status,8,2,A/N
+SV01,Results of Name Verification,10,2,A/N
+SV01,Results of Address Verification,12,2,A/N
+SV01,Results of SSN Verification,14,2,A/N
+SV01,Results of DOB Verification,16,2,A/N
+SV01,Results of Suffix Verification,18,2,A/N
+SV01,Message Text,20,48,A/N
+SV02,Segment Type,1,4,A/N
+SV02,Segment Length,5,3,N
+SV02,File Source,8,2,A/N
+SV02,File Number,10,2,N
+SV02,Subject Hit Status,12,2,A/N
+SV02,Subject Restriction Status,14,1,A/N
+SV02,Phone Status,15,1,A/N
+SV02,Date of Birth,16,1,A/N
+SV02,Address Type,17,1,A/N
+SV02,First Name,18,2,A/N
+SV02,Last Name,20,2,A/N
+SV02,Current Address,22,2,A/N
+SV02,Previous Address,24,2,A/N
+SV02,Area Code,26,2,A/N
+SV02,Phone Number,28,2,A/N
+SV02,SSN,30,2,A/N
+SV03,Segment Type,1,4,A/N
+SV03,Segment Length,5,3,N
+SV03,Source Indicator,8,2,A/N
+SV03,Subject Hit Status,10,2,A/N
+SV03,First Name,12,2,A/N
+SV03,Middle Name,14,2,A/N
+SV03,Last Name,16,2,A/N
+SV03,Maternal Name,18,2,A/N
+SV03,Suffix,20,2,A/N
+SV03,Current Address,22,2,A/N
+SV03,Previous Address,24,2,A/N
+SV03,Phone Number,26,2,A/N
+SV03,SSN,28,2,A/N
+SV03,Date of Birth,30,2,A/N
+SV03,Filler,32,16,A/N
+TA01,Segment Type,1,4,A/N
+TA01,Segment Length,5,3,N
+TA01,Address Type,8,1,A/N
+TA01,Message Type,9,1,A/N
+TA01,Alert Condition,10,1,A/N
+TA01,Number of Inquiries in Last 60 days,11,2,A/N
+TC01,Segment Type,1,4,A/N
+TC01,Segment Length,5,3,N
+TC01,Service Code,8,5,A/N
+TC01,Debt to Income Percentage Indicator,13,1,A/N
+TC01,Debt to Income Percentage,14,3,A/N
+TC01,Low Range,17,7,N
+TC01,Upper Range,24,7,N
+TM11,Segment Type,1,4,A/N
+TM11,Segment Length,5,3,N
+TM11,Filler,8,3,N
+TM11,MOP 09 9B 9P Counter,11,3,N
+TM11,MOP 08 8A 8P Counter,14,3,N
+TM11,MOP 07 BK Counter,17,3,N
+TM11,Filler,20,3,N
+TM11,MOP 05 Counter,23,3,N
+TM11,MOP 04 Counter,26,3,N
+TM11,MOP 03 Counter,29,3,N
+TM11,MOP 02 Counter,32,3,N
+TM11,MOP 01 Counter,35,3,N
+TM11,Filler,38,3,N
+TM11,All Other Counter,41,3,N
+TM11,Number of accounts in dispute,44,3,N
+TR11,Segment Type,1,4,A/N
+TR11,Segment Length,5,3,N
+TR11,Industry Code,8,2,A/N
+TR11,Reporting Subscriber Code,10,8,A/N
+TR11,Subscriber Name,18,30,A/N
+TR11,Portfolio Type,48,1,A
+TR11,Account Number,49,30,A/N
+TR11,Equal Credit Opportunity Act Designator,79,1,A
+TR11,Account Type,80,2,A
+TR11,Effective Date,82,8,A/N
+TR11,Open Date,90,8,A/N
+TR11,Closed Date,98,8,A/N
+TR11,Closed Date Indicator,106,1,A
+TR11,Paid Out Date,107,8,A/N
+TR11,Current Balance Amount,115,9,A/N
+TR11,High Credit Amount,124,9,A/N
+TR11,Credit Limit Amount,133,9,A/N
+TR11,Terms Payment Schedule Month Count,142,3,A/N
+TR11,Terms Frequency of Payment,145,1,A/N
+TR11,Terms Scheduled Monthly Payment Amount,146,9,A/N
+TR11,Actual Payment Amount,155,9,A
+TR11,Last Payment Date,164,8,A/N
+TR11,Manner of Payment renamed,172,2,A/N
+TR11,Payment Pattern Start Date,174,8,A/N
+TR11,Payment Pattern,182,48,A/N
+TR11,Number of Months Reviewed,230,2,N
+TR11,Times 30 Days Late,232,2,A/N
+TR11,Times 60 Days Late,234,2,A/N
+TR11,Times 90 Days Late,236,2,A/N
+TR11,Past Due Amount,238,9,A/N
+TR11,Consolidated Remark Code renamed,247,3,A/N
+TR11,Filler,250,34,A/N
+TR11,Maximum Delinquency Manner of Payment MOP,284,2,A/N
+TR11,Maximum Delinquency Amount,286,9,A/N
+TR11,Maximum Delinquency Date,295,8,A/N
+TR11,Most Recent Maximum Delinquency Amount renamed ,303,9,A/N
+TR11,Most Recent Maximum Delinquency Date renamed ,312,8,A/N
+TR11,Remarks Affiliate Remark Code,320,3,A/N
+TR11,Generic Remark Code,323,3,A/N
+TR11,Rating Remark Code,326,3,A/N
+TR11,Compliance Remark Code,329,3,A/N
+TR11,Update Indicator,332,1,A
+TR12,Segment Type,1,4,A/N
+TR12,Segment Length,5,3,N
+TR12,Industry Code,8,2,A/N
+TR12,Reporting Subscriber Code,10,8,A/N
+TR12,Subscriber Name,18,30,A/N
+TR12,Portfolio Type,48,1,A
+TR12,Account Number,49,30,A/N
+TR12,Current Balance Amount,79,9,A/N
+TR12,Current Manner of Payment MOP,88,2,A/N
+TR12,Current Past Due Amount,90,9,A/N
+TR12,Previous Manner of Payment MOP,99,2,A/N
+TR12,Previous Past Due Amount,101,9,A/N
+TR12,Remarks Code Affiliate Remark Code,110,3,A/N
+TR12,Generic Remark Code,113,3,A/N
+TR12,Rating RemarkCode,116,3,A/N
+TR12,Compliance Remark Code,119,3,A/N
+TR12,Method of Contact,122,1,A/N
+TR13,Segment Type,1,4,A/N
+TR13,Segment Length,5,3,N
+TR13,Industry Code,8,2,A/N
+TR13,Reporting Subscriber Code,10,8,A/N
+TR13,Subscriber Name,18,30,A/N
+TR13,Portfolio Type,48,1,A
+TR13,Account Number,49,30,A/N
+TR13,Equal Credit Opportunity Act Designator,79,1,A
+TR13,Account Type,80,2,A
+TR13,Effective Date,82,8,A/N
+TR13,Open Date,90,8,A/N
+TR13,Closed Date,98,8,A/N
+TR13,Closed Date Indicator,106,1,A
+TR13,Paid Out Date,107,8,A/N
+TR13,Current Balance Amount,115,9,A/N
+TR13,High Credit Amount,124,9,A/N
+TR13,Credit Limit Amount,133,9,A/N
+TR13,Terms Payment Schedule Month Count,142,3,A/N
+TR13,Terms Frequency of Payment,145,1,A/N
+TR13,Terms Scheduled Monthly Payment Amount,146,9,A/N
+TR13,Actual Payment Amount,155,9,A
+TR13,Last Payment Date,164,8,A/N
+TR13,Manner of Payment MOP renamed,172,2,A/N
+TR13,Payment Pattern Start Date,174,8,A/N
+TR13,Payment Pattern,182,48,A/N
+TR13,Number of Months Reviewed,230,2,N
+TR13,Times 30 Days Late,232,2,A/N
+TR13,Times 60 Days Late,234,2,A/N
+TR13,Times 90 Days Late,236,2,A/N
+TR13,Past Due Amount,238,9,A/N
+TR13,First Delinquency Date,247,8,A/N
+TR13,Filler,255,29,A/N
+TR13,Maximum Delinquency Manner of Payment,284,2,A/N
+TR13,Maximum Delinquency Amount,286,9,A/N
+TR13,Maximum Delinquency Date,295,8,A/N
+TR13,Most Recent Maximum Delinquency Amount renamed,303,9,A/N
+TR13,Most Recent Delinquency Date renamed,312,8,A/N
+TR13,Remarks Affiliate Remark Code,320,3,A/N
+TR13,Generic Remark Code,323,3,A/N
+TR13,Rating Remark Code,326,3,A/N
+TR13,Compliance Remark Code,329,3,A/N
+TR13,Update Indicator,332,1,A
+TR13,Reported Date,333,8,A/N
+TR13,Suppressed Date,341,8,A/N
+TR13,Suppression Indicator,349,1,A/N
+TR13,Filler,350,2,A/N
+TR13,Filler,352,18,A/N
+TR13,Filler,370,18,A/N
+TT01,Segment Type,1,4,A/N
+TT01,Segment Length,5,3,N
+TT01,Transaction Number,8,26,A/N
+TU4E,Segment Type,1,4,A/N
+TU4E,Segment Length,5,3,N
+TU4E,Version Switch,8,1,N
+TU4E,Country Code,9,1,A/N
+TU4E,Language Indicator,10,1,N
+TU4E,User Reference Number,11,24,A/N
+TU4E,Bureau Market,35,2,N
+TU4E,Bureau Submarket,37,2,A/N
+TU4E,Industry Code,39,2,A/N
+TU4E,Inquiring Subscriber Code,41,8,A/N
+TU4E,Transaction Date,49,8,A/N
+TU4E,Transaction Time,57,6,A/N
+TU4R,Segment Type,1,4,A/N
+TU4R,Segment Length,5,3,N
+TU4R,Version Switch,8,1,N
+TU4R,Country Code,9,1,A/N
+TU4R,Language Indicator,10,1,N
+TU4R,User Reference Number,11,24,A/N
+TU4R,Bureau Market,35,2,N
+TU4R,Bureau Submarket,37,2,A/N
+TU4R,Industry Code,39,2,A/N
+TU4R,Inquiring Subscriber Code,41,8,A/N
+TU4R,Transaction Date,49,8,A/N
+TU4R,Transaction Time,57,6,A/N
+TX01,Segment Type,1,4,A/N
+TX01,Segment Length,5,3,N
+TX01,Content Type,8,3,A/N
+TX01,Statement Identifier,11,3,A/N
+TX01,Filler,14,3,N
+TX01,Current Segment Number,17,3,N
+TX01,Total Segment Number,20,3,N
+TX01,Statement Text,23,150,A/N
+UA11,Segment Type,1,4,A/N
+UA11,Segment Length,5,3,N
+UA11,Source Indicator,8,1,A
+UA11,Address Qualifier,9,1,A/N
+UA11,Address Classification Code,10,1,A/N
+UA11,Standardized Flag,11,1,A/N
+UA11,Address Type,12,1,A/N
+UA11,Unparsed Address Line 1,13,70,A/N
+UA11,City,83,28,A
+UA11,State,111,2,A
+UA11,ZIP Code,113,5,A/N
+UA11,ZIP Extension Code,118,4,A/N
+UA11,Reported Date,122,8,A/N
+UA11,Housing Status,130,1,A/N
+UF11,Segment Type,1,4,A/N
+UF11,Segment Length,5,3,N
+UF11,Source Indicator,8,1,A
+UF11,Address Qualifier,9,1,A/N
+UF11,Address Classification Code,10,1,A/N
+UF11,Standardized Flag,11,1,A/N
+UF11,Address Type,12,1,A/N
+UF11,Unparsed Address Line 1,13,70,A/N
+UF11,City,83,28,A
+UF11,State,111,2,A
+UF11,ZIP Code,113,5,A/N
+UF11,ZIP Extension Code,118,4,A/N
+UF11,Reported Date,122,8,A/N
+UF11,Housing Status,130,1,A/N
+VH01,Segment Type,1,4,A/N
+VH01,Segment Length,5,3,N
+VH01,Source Indicator,8,1,A
+VH01,Vehicle Identification Number,9,17,A/N
+VH01,Year,26,4,A/N
+VH01,Make,30,16,A/N
+VH01,Model,46,35,A/N
+VH01,Body Style,81,10,A/N
+VH01,Odometer Mileage,91,6,N
+VH01,Odometer Reading Date,97,8,A/N
+VH01,State Registered,105,2,A
+VH01,Business Use Indicator,107,1,A/N
+VH01,AntiTheft Device Type Code,108,2,A/N
+VH01,Collision Deductible Amount,110,9,A/N
+VH01,Comprehensive Deductible Amount,119,9,A/N
+VH01,Towing Limit Amount,128,9,A/N
+VH01,Daily Rental Reimbursement Limit Amount,137,9,A/N
+VH01,Total Rental Reimbursement Limit Amount,146,9,A/N
+VH01,Plate Type,155,1,A/N
+VH01,Branded Title,156,1,A/N
+VH01,Lease Indicator,157,1,A/N
+VH01,Filler,158,27,A/N
+VS01,Segment Type,1,4,A/N
+VS01,Segment Length,5,3,N
+VS01,Identity Risk Indicator,8,1,A/N
+VS01,Best Match Source Indicator,9,2,A/N
+VS01,Sign,11,1,A/N
+VS01,Verification Point,12,4,A/N
+VS01,Risk Lower Threshold,16,4,A/N
+VS01,Risk Upper Threshold,20,4,A/N
+VS01,Filler,24,10,A/N
+WS01,Segment Type,1,4,A/N
+WS01,Segment Length,5,3,N
+WS01,Satisfaction Criteria,8,3,A/N
+YI01,Segment Type,1,4,A/N
+YI01,Segment Length,5,3,N
+YI01,ID Qualifier,8,2,A/N
+YI01,Message Code,10,6,A/N
+YI01,Source Indicator,16,1,A/N
+YI01,Number of Years Covered,17,2,A/N
+YI01,Range of Years Issued From,19,4,N
+YI01,Range of Years Issued To,23,4,N
+YI01,State Code,27,2,A
+YI01,Sign of Age Obtained From,29,1,A/N
+YI01,Age Obtained From,30,2,A/N
+YI01,Sign of Age Obtained To,32,1,A/N
+YI01,Age Obtained To,33,2,A/N
+YI01,Issuance Year Status,35,2,A/N
+ZC01,Segment Type,1,4,A/N
+ZC01,Segment Length,5,3,N
+ZC01,Source Indicator,8,1,A
+ZC01,ZIP Code Qualifier,9,2,A/N
+ZC01,ZIP Code Indicator,11,1,N
+ZC01,ZIP Code Type,12,1,A/N
+ZC01,ZIP Code,13,10,A/N
